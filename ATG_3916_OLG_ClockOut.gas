@@ -1,0 +1,25 @@
+Program.Sub.ScreenSU.Start
+Program.Sub.ScreenSU.End
+
+Program.Sub.Preflight.Start
+
+Program.Sub.Preflight.End
+
+Program.Sub.Main.Start
+'Coded by: JLH
+'Project Start Date: 11/9/2011
+'Hooks:
+'  15752
+
+V.Passed.STATUS.Set("CLOCK OUT")
+
+F.Intrinsic.Control.End
+
+Program.Sub.Main.End
+
+Program.Sub.Comments.Start
+${$0$}$ATG_3916_OLG_ClockOut$}$SUPERVSR$}$5/5/2016
+${$1$}$$}$$}$0$}$15752$}$Custom Scan Prefix$}$5/5/2016 11:09:55 AM$}$(Program: OLG002; Screen: OLS001)
+
+Program.Sub.Comments.End
+
